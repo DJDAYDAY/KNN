@@ -7,6 +7,7 @@ import matplotlib
 import math
 from sklearn.model_selection import train_test_split
 #
+#
 
 
 def EuDistance(x1,x2):
@@ -18,6 +19,10 @@ def EuDistance(x1,x2):
     else:
         print("distance error")
     return result
+
+
+
+
 
 def MinkowskiDistance(p,x1,x2):
     result=0
