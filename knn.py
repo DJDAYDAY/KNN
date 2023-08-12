@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 import math
 from sklearn.model_selection import train_test_split
-
+#
 
 
 def EuDistance(x1,x2):
